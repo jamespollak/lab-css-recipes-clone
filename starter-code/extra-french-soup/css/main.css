@@ -1,17 +1,25 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+/*h1, body, html, main {
   margin: 160px;
-}
+}*/
 /*Import the font and set the default size*/
+
+
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
 
-.header {
-  background-image: url(/extra-french-soup/images/soup.jpg);
+.mainimage {
+  background-image: url(../images/soup.jpg);
   background-size: cover;
   text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 50px;
 }
 
 .infoimages {
@@ -35,4 +43,12 @@ ul li:before {
 
 .directions {
   padding: 20px;
+}
+
+.recipetext {
+  margin: 100px 400px 100px 400px;
+}
+
+h1, body {
+  margin: 0;
 }
